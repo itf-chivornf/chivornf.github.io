@@ -15,14 +15,14 @@ body {
 }
 .content {
     width:790px;
-    height:450px;
-    background-color:#dbdbdb;
+    height:2000px;
+    background-color:#dbfffd;
     float:right;
 }
 .sidebar {
     width:175px;
-    height:450px;
-    background-color:#0d7963;
+    height:600px;
+    background-color:#d1dbff;
     float:left;
 }
 .footer {
@@ -63,7 +63,7 @@ body {
     width:790px;
     height:280px;
     margin: 0;
-    background-color:#a00;
+    background-color:#d1dbff;
 }
 
 .avatar_size {
@@ -71,7 +71,7 @@ body {
     width:200px;
     margin:15px;
     float: left;
-    background-color:#000;
+    background-color:#faf;
 }
 .avatar_text{
     height:250px;
@@ -79,14 +79,14 @@ body {
     margin:15px;
     margin-left: 0;
     float: left;
-    background-color:#0a0;
+    /*background-color:#c7fff3;*/
 }
 
 
 a.linksite {
   float: left;
-  color: #abc;
-  background-color: #912;
+  color: #fff;
+  background-color: #666666;
   text-align: center;
   padding: 4px 8px;
   margin-right: 2px;
@@ -99,4 +99,61 @@ a.linksite:hover {
   background-color: #ddd;
   color: black;
 }
+
+
+.cv{
+    width:760px;
+    height:1600px;
+    margin: 15px;
+    background-color:#d1abff;
+}
+.education{
+    margin: 0;
+    padding: 0;
+}
+hr.line {
+  border:  1px solid #b0b0b0;
+  border-radius: 5px;
+  margin-top: 1px;
+}
+.master{
+    margin: 0;
+    color: #5e5e5e;
+    padding: 0;
+}
+.lefttext {
+    float: left;
+}
+.righttext {
+    float: right;
+}
+
+/* Lleft side----------------------*/
+.Docstypes a {
+  background-color: #66002c; /* Green background */
+  margin:3px;
+  color: white; /* White text */
+  padding: 8px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  /*width: 50%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+  text-decoration: none;
+  border-radius: 5px;
+}
+.Docstypes a:hover {
+  background-color: #ff006f;
+}
+
+
+
+
+
+/*Download PDF*/
+
+a.download_pdf{
+    background-color:#cyan;
+    padding: 0;
+}
+
+
 
