@@ -63,7 +63,7 @@ body {
     width:790px;
     height:280px;
     margin: 0;
-    background-color:#d1dbff;
+    /*background-color:#d1dbff;*/
 }
 
 .avatar_size {
@@ -105,7 +105,7 @@ a.linksite:hover {
     width:760px;
     height:1600px;
     margin: 15px;
-    background-color:#d1abff;
+    /*background-color:#d1abff*/;
 }
 .education{
     margin: 0;
@@ -150,7 +150,12 @@ hr.line {
 
 /*Download PDF*/
 
-
+a.normal_link {
+    display: block;
+    text-decoration: none;
+    color: darkblue;
+    margin: 10px;
+}
 
 
 

@@ -1,0 +1,88 @@
+
+a.lecture_main {
+  display: block;
+  color: blue;
+  font-weight: bold;
+  text-align: left;
+  padding: 4px 8px;
+  margin-right: 2px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a.lecture_main :hover {
+  background-color: #ddd;
+  color: black;
+}
+
+p.text_course{
+    padding-left: 5px;
+}
+
+a.active.docsite{
+  background-color: #ff006f;
+  color: white;
+}
+
+
+
+a.back  {
+  background-color: darkblue; /* Green background */
+  margin:3px;
+  color: white; /* White text */
+  padding: 8px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 100px; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+a.back:hover {
+  background-color: #ff006f;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #fff;
+}
+th {
+    text-align: center;
+}
+tr:hover {background-color: #8bfcfc;}
+
+a.download_pdf{
+    text-decoration: none;
+    padding:0;
+    
+    }
+a.download_pdf:hover{
+    color: black;
+    }
+
+
+    a.download  {
+  background-color: blue; /* Green background */
+  margin:3px;
+  color: white; /* White text */
+  padding: 8px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: auto; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+a.download:hover {
+  background-color: #ff006f;
+}
